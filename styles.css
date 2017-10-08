@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .wrapper .col {
+    width: 33%;
+    height: 100vh; }
+    .wrapper .col:hover {
+      width: 90%;
+      transition: .7s linear; }
+  .wrapper .col1 {
+    background-image: url("https://static.pexels.com/photos/45222/forest-fog-nature-winter-45222.jpeg");
+    background-position: center; }
+  .wrapper .col2 {
+    background: #8BA6A9; }
+  .wrapper .col3 {
+    background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg"); }
+
+/*# sourceMappingURL=styles.css.map */
