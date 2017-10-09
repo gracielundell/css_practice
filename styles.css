@@ -4,16 +4,29 @@
   flex-direction: row; }
   .wrapper .col {
     width: 33%;
-    height: 100vh; }
+    height: 100vh;
+    position: relative; }
+    .wrapper .col p {
+      display: none;
+      color: #1d1d1d;
+      font-size: 4em;
+      position: absolute;
+      top: 5%;
+      left: 45%; }
     .wrapper .col:hover {
-      width: 90%;
+      width: 100%;
       transition: .7s linear; }
+      .wrapper .col:hover p {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
   .wrapper .col1 {
-    background-image: url("https://static.pexels.com/photos/45222/forest-fog-nature-winter-45222.jpeg");
-    background-position: center; }
+    background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg");
+    background-position: right; }
   .wrapper .col2 {
-    background: #8BA6A9; }
+    background: #D1DBDD; }
   .wrapper .col3 {
-    background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg"); }
+    background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg");
+    background-position: left; }
 
 /*# sourceMappingURL=styles.css.map */
