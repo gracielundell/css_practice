@@ -42,6 +42,23 @@ body {
 
 .wholeScreen {
   width: 100%;
-  background: linear-gradient(#D1DBDD, #a5b9bc); }
+  height: 100vh;
+  background: linear-gradient(#D1DBDD, #a5b9bc);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 1rem; }
+  .wholeScreen .item {
+    border: 1px solid #1d1d1d;
+    position: relative; }
+    .wholeScreen .item p {
+      display: none;
+      font-size: 4rem;
+      position: absolute;
+      top: 25%;
+      left: 45%; }
+    .wholeScreen .item:hover p {
+      display: block; }
 
 /*# sourceMappingURL=styles.css.map */
