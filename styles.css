@@ -46,8 +46,7 @@ body {
   background: linear-gradient(#D1DBDD, #a5b9bc);
   padding: 2rem;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 30% 70%;
   grid-gap: 1rem; }
   .wholeScreen .item {
     border: 1px solid #1d1d1d;
@@ -58,7 +57,16 @@ body {
       position: absolute;
       top: 25%;
       left: 45%; }
-    .wholeScreen .item:hover p {
-      display: block; }
+  .wholeScreen .item2 {
+    grid-template-rows: 30vh 30vh 30vh;
+    border: none; }
+    .wholeScreen .item2 .row {
+      height: 30vh;
+      margin: 10px 0;
+      border: 1px solid #1d1d1d; }
+    .wholeScreen .item2 .item3 {
+      margin-top: 0; }
+    .wholeScreen .item2 .item5 {
+      margin-bottom: 0; }
 
 /*# sourceMappingURL=styles.css.map */
