@@ -1,21 +1,30 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
 .wrapper {
   width: 100%;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  height: 100vh; }
   .wrapper .col {
     width: 33%;
-    height: 100vh;
     position: relative; }
     .wrapper .col p {
       display: none;
-      color: #1d1d1d;
       font-size: 4em;
+      color: #1d1d1d;
       position: absolute;
       top: 5%;
       left: 45%; }
     .wrapper .col:hover {
       width: 100%;
-      transition: .7s linear; }
+      transition: all 1s linear; }
       .wrapper .col:hover p {
         display: flex;
         justify-content: center;
@@ -28,5 +37,9 @@
   .wrapper .col3 {
     background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg");
     background-position: left; }
+
+.wholeScreen {
+  width: 100%;
+  background: linear-gradient(#D1DBDD, #a5b9bc); }
 
 /*# sourceMappingURL=styles.css.map */
