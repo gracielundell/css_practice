@@ -51,19 +51,18 @@ body {
   .wholeScreen .item {
     border: 1px solid #1d1d1d;
     position: relative; }
-    .wholeScreen .item p {
-      display: none;
-      font-size: 4rem;
-      position: absolute;
-      top: 25%;
-      left: 45%; }
   .wholeScreen .item2 {
     grid-template-rows: 30vh 30vh 30vh;
     border: none; }
     .wholeScreen .item2 .row {
+      display: grid;
+      grid-template-columns: 32% 32% 32%;
+      grid-gap: 1rem;
       height: 30vh;
       margin: 10px 0;
       border: 1px solid #1d1d1d; }
+      .wholeScreen .item2 .row .column {
+        border: 1px solid red; }
     .wholeScreen .item2 .item3 {
       margin-top: 0; }
     .wholeScreen .item2 .item5 {

@@ -62,21 +62,20 @@ body {
   .item {
     border: 1px solid #1d1d1d;
     position: relative;
-    p {
-      display: none;
-      font-size: 4rem;
-      position: absolute;
-      top: 25%;
-      left: 45%;
-    }
   }
   .item2 {
     grid-template-rows: 30vh 30vh 30vh;
     border: none;
     .row {
+      display: grid;
+      grid-template-columns: 32% 32% 32%;
+      grid-gap: 1rem;
       height: 30vh;
       margin: 10px 0;
       border: 1px solid #1d1d1d;
+      .column {
+        border: 1px solid red;
+      }
     }
     .item3 {
       margin-top: 0;
