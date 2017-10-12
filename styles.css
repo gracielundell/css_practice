@@ -46,26 +46,23 @@ body {
   background: linear-gradient(#D1DBDD, #a5b9bc);
   padding: 2rem;
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 22vh 22vh 22vh 22vh;
   grid-gap: 1rem; }
-  .wholeScreen .item {
+  .wholeScreen .item6,
+  .wholeScreen .item7,
+  .wholeScreen .item10,
+  .wholeScreen .item11 {
     border: 1px solid #1d1d1d;
-    position: relative; }
-  .wholeScreen .item2 {
-    grid-template-rows: 30vh 30vh 30vh;
-    border: none; }
-    .wholeScreen .item2 .row {
-      display: grid;
-      grid-template-columns: 32% 32% 32%;
-      grid-gap: 1rem;
-      height: 30vh;
-      margin: 10px 0;
-      border: 1px solid #1d1d1d; }
-      .wholeScreen .item2 .row .column {
-        border: 1px solid red; }
-    .wholeScreen .item2 .item3 {
-      margin-top: 0; }
-    .wholeScreen .item2 .item5 {
-      margin-bottom: 0; }
+    background: url("https://static.pexels.com/photos/540518/pexels-photo-540518.jpeg") no-repeat;
+    background-size: cover; }
+  .wholeScreen .item6 {
+    background-position: top left; }
+  .wholeScreen .item6 {
+    background-position: top left; }
+  .wholeScreen .item10 {
+    background-position: top left; }
+  .wholeScreen .item11 {
+    background-position: top left; }
 
 /*# sourceMappingURL=styles.css.map */
