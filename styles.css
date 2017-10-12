@@ -53,9 +53,13 @@ body {
   .wholeScreen .item7,
   .wholeScreen .item10,
   .wholeScreen .item11 {
-    border: 1px solid #1d1d1d;
     background: url("https://static.pexels.com/photos/540518/pexels-photo-540518.jpeg") no-repeat;
     background-size: cover; }
+    .wholeScreen .item6:hover,
+    .wholeScreen .item7:hover,
+    .wholeScreen .item10:hover,
+    .wholeScreen .item11:hover {
+      box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); }
   .wholeScreen .item6 {
     background-position: top left; }
   .wholeScreen .item6 {
