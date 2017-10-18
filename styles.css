@@ -60,18 +60,21 @@ body {
     .page2 .item10:hover,
     .page2 .item11:hover {
       box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); }
-  .page2 .item6 {
-    background-position: top left; }
-  .page2 .item6 {
-    background-position: top left; }
-  .page2 .item10 {
-    background-position: top left; }
+  .page2 .item6,
+  .page2 .item7,
+  .page2 .item10,
   .page2 .item11 {
     background-position: top left; }
 
 .page3 {
   height: 100vh;
   width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100vh;
+  grid-gap: 1rem;
   background: #424B54; }
+  .page3 .col {
+    border: 1px solid red; }
 
 /*# sourceMappingURL=styles.css.map */
