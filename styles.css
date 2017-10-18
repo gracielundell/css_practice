@@ -7,66 +7,71 @@ html {
 body {
   margin: 0; }
 
-.wrapper {
+.page1 {
+  height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  height: 100vh; }
-  .wrapper .col {
+  flex-direction: row; }
+  .page1 .col {
     width: 33%;
     position: relative; }
-    .wrapper .col p {
+    .page1 .col p {
       display: none;
       font-size: 4em;
       color: #1d1d1d;
       position: absolute;
       top: 5%;
       left: 45%; }
-    .wrapper .col:hover {
+    .page1 .col:hover {
       width: 100%;
       transition: all 1s linear; }
-      .wrapper .col:hover p {
+      .page1 .col:hover p {
         display: flex;
         justify-content: center;
         align-items: center; }
-  .wrapper .col1 {
+  .page1 .col1 {
     background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg");
     background-position: right; }
-  .wrapper .col2 {
+  .page1 .col2 {
     background: #D1DBDD; }
-    .wrapper .col2 p {
+    .page1 .col2 p {
       justify-content: flex-start; }
-  .wrapper .col3 {
+  .page1 .col3 {
     background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg");
     background-position: left; }
 
-.wholeScreen {
-  width: 100%;
+.page2 {
   height: 100vh;
+  width: 100%;
   background: linear-gradient(#D1DBDD, #a5b9bc);
   padding: 2rem;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 22vh 22vh 22vh 22vh;
   grid-gap: 1rem; }
-  .wholeScreen .item6,
-  .wholeScreen .item7,
-  .wholeScreen .item10,
-  .wholeScreen .item11 {
+  .page2 .item6,
+  .page2 .item7,
+  .page2 .item10,
+  .page2 .item11 {
     background: url("https://static.pexels.com/photos/540518/pexels-photo-540518.jpeg") no-repeat;
     background-size: cover; }
-    .wholeScreen .item6:hover,
-    .wholeScreen .item7:hover,
-    .wholeScreen .item10:hover,
-    .wholeScreen .item11:hover {
+    .page2 .item6:hover,
+    .page2 .item7:hover,
+    .page2 .item10:hover,
+    .page2 .item11:hover {
       box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); }
-  .wholeScreen .item6 {
+  .page2 .item6 {
     background-position: top left; }
-  .wholeScreen .item6 {
+  .page2 .item6 {
     background-position: top left; }
-  .wholeScreen .item10 {
+  .page2 .item10 {
     background-position: top left; }
-  .wholeScreen .item11 {
+  .page2 .item11 {
     background-position: top left; }
+
+.page3 {
+  height: 100vh;
+  width: 100%;
+  background: #424B54; }
 
 /*# sourceMappingURL=styles.css.map */

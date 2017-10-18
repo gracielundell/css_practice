@@ -1,3 +1,9 @@
+@mixin pageDimensions ($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+
 html {
   box-sizing: border-box;
 }
@@ -8,11 +14,10 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  width: 100%;
+.page1 {
+  @include pageDimensions(100vh, 100%);
   display: flex;
   flex-direction: row;
-  height: 100vh;
   .col {
     width: 33%;
     position: relative;
@@ -50,9 +55,8 @@ body {
   }
 }
 
-.wholeScreen {
-  width: 100%;
-  height: 100vh;
+.page2 {
+  @include pageDimensions(100vh, 100%);
   // background: linear-gradient( #EDDEA4, #F7A072); cool sunrise gradient
   background: linear-gradient( #D1DBDD, #a5b9bc);
   padding: 2rem;
@@ -64,7 +68,6 @@ body {
   .item7,
   .item10,
   .item11 {
-    // border: 1px solid #1d1d1d;
     background: url("https://static.pexels.com/photos/540518/pexels-photo-540518.jpeg") no-repeat;
     background-size: cover;
     &:hover {
@@ -83,4 +86,10 @@ body {
   .item11 {
     background-position: top left;
   }
+}
+
+.page3 {
+  @include pageDimensions(100vh, 100%);
+
+  background: #424B54;
 }
