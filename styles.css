@@ -84,19 +84,36 @@ body {
   height: 100vh;
   width: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100vh;
-  grid-gap: 1rem;
-  justify-items: center;
+  justify-items: end;
   align-items: center;
-  background: #424B54; }
-  .page3 .col #circle {
+  background: #424B54;
+  padding: 3%; }
+  .page3 #circle {
     width: 40rem;
     height: 40rem;
     background: url("https://static.pexels.com/photos/33041/antelope-canyon-lower-canyon-arizona.jpg") no-repeat;
     background-size: cover;
     -moz-border-radius: 20rem;
     -webkit-border-radius: 20rem;
-    border-radius: 20rem; }
+    border-radius: 20rem;
+    position: relative; }
+  .page3 #title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    left: 20%;
+    margin-top: 15vh;
+    z-index: 1;
+    height: 200px;
+    border: 1px solid red; }
+    .page3 #title h1 {
+      font-family: sans-serif;
+      font-weight: 700;
+      font-size: 6em;
+      color: #fff;
+      padding: 0 20px; }
+    .page3 #title:nth-child(odd) {
+      padding-top: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
