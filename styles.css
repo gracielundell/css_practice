@@ -33,7 +33,7 @@ body {
     background-image: url("https://static.pexels.com/photos/5049/forest-trees-fog-foggy.jpg");
     background-position: right; }
   .page1 .col2 {
-    background: #D1DBDD; }
+    background: linear-gradient(#D1DBDD, #a5b9bc); }
     .page1 .col2 p {
       justify-content: flex-start; }
   .page1 .col3 {
@@ -43,7 +43,7 @@ body {
 .page2 {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(#D1DBDD, #a5b9bc);
+  background: linear-gradient(#a5b9bc, #424B54);
   padding: 2rem;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -87,15 +87,16 @@ body {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100vh;
   grid-gap: 1rem;
+  justify-items: center;
+  align-items: center;
   background: #424B54; }
-  .page3 .col {
-    border: 1px solid red; }
-    .page3 .col #circle {
-      width: 40rem;
-      height: 40rem;
-      background: red;
-      -moz-border-radius: 20rem;
-      -webkit-border-radius: 20rem;
-      border-radius: 20rem; }
+  .page3 .col #circle {
+    width: 40rem;
+    height: 40rem;
+    background: url("https://static.pexels.com/photos/33041/antelope-canyon-lower-canyon-arizona.jpg") no-repeat;
+    background-size: cover;
+    -moz-border-radius: 20rem;
+    -webkit-border-radius: 20rem;
+    border-radius: 20rem; }
 
 /*# sourceMappingURL=styles.css.map */

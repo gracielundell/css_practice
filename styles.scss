@@ -44,7 +44,7 @@ body {
     background-position: right;
   }
   .col2 {
-    background: #D1DBDD;
+    background: linear-gradient( #D1DBDD, #a5b9bc);
     p {
       justify-content: flex-start;
     }
@@ -58,7 +58,7 @@ body {
 .page2 {
   @include pageDimensions(100vh, 100%);
   // background: linear-gradient( #EDDEA4, #F7A072); cool sunrise gradient
-  background: linear-gradient( #D1DBDD, #a5b9bc);
+  background: linear-gradient( #a5b9bc, #424B54);
   padding: 2rem;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -106,13 +106,15 @@ body {
   grid-template-columns: 50% 50%;
   grid-template-rows: 100vh;
   grid-gap: 1rem;
+  justify-items: center;
+  align-items: center;
   background: #424B54;
   .col {
-    border: 1px solid red;
     #circle {
     	width: 40rem;
     	height: 40rem;
-    	background: red;
+    	background: url("https://static.pexels.com/photos/33041/antelope-canyon-lower-canyon-arizona.jpg") no-repeat;
+      background-size: cover;
     	-moz-border-radius: 20rem;
     	-webkit-border-radius: 20rem;
     	border-radius: 20rem;
