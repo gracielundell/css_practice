@@ -119,25 +119,30 @@ body {
     // left: 50%;
     // margin-top: 15vh;
   }
-  #title {
+  .title {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
     position: absolute;
-    left: 20%;
-    margin-top: 15vh;
+    left: 30%;
+    margin-top: 25vh;
     z-index: 1;
-    height: 200px;
-    border: 1px solid red;
+    letter-spacing: 45px;
+    color: #fff;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, .5);
     h1 {
       font-family: sans-serif;
-      font-weight: 700;
-      font-size: 6em;
-      color: #fff;
-      padding: 0 20px;
+      font-weight: 400;
+      font-size: 7em;
+      margin-bottom: .5%;
     }
-    &:nth-child(odd) {
-      padding-top: 20px;
+    h3 {
+      font-style: italic;
+      font-weight: 700;
+      font-size: 4em;
+      text-transform: lowercase;
+      margin-top: 0;
+      letter-spacing: 25px;
     }
   }
 
